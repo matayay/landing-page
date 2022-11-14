@@ -1,0 +1,29 @@
+body {
+    padding: 0px;
+}
+
+.head {
+    height: 30vh;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: auto;
+    width: 4rem;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.links a {
+    text-decoration: none;
+}
