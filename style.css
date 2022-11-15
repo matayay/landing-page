@@ -112,7 +112,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 2rem;
     margin-bottom: 5rem;
 }
 
