@@ -7,7 +7,7 @@ body {
     background-color: #1F2937;
     padding-left: 10rem;
     padding-right: 10rem;
-    margin-bottom: 46rem;
+    margin-bottom: 5rem;
 }
 
 .header {
@@ -90,6 +90,15 @@ body {
     flex: 0 1 0;
 }
 
+.info {
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+
 .info .title {
     font-size: 36px;
     font-weight: bold;
@@ -104,6 +113,7 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     gap: 0.5rem;
+    margin-bottom: 5rem;
 }
 
 .island {
