@@ -1,10 +1,13 @@
 body {
-    padding: 0px;
+    margin: 0px;
 }
 
 .head {
-    height: 30vh;
+    height: 55vh;
     background-color: #1F2937;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-bottom: 44rem;
 }
 
 .header {
@@ -12,11 +15,14 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5rem;
+    padding-top: 0.8rem;
 }
 
 .header img {
     height: auto;
     width: 4rem;
+    filter: invert();
 }
 
 .links {
@@ -26,4 +32,207 @@ body {
 
 .links a {
     text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.hero {
+    height: 25vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.hero .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero .subtext {
+    color: white;
+    width: 30rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero button {
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: green;
+    border-radius: 2rem;
+    border-color: green;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transition: all 500ms;
+}
+
+.hero button:hover {
+    border: 3px solid aquamarine;
+    transform: scale(1.1);
+    filter: brightness(125%);
+}
+
+.hero img {
+    width: 25rem;
+    height: auto;
+    border-radius: 2rem;
+    display: flex;
+    flex: 0 1 0;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.islands {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.island {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.islands .text {
+    width: 10rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.islands img {
+    width: 12rem;
+    height: auto;
+    border-radius: 2rem;
+    border: 4px solid green;
+    margin-bottom: 1rem;
+    display: flex;
+    flex: 0 1 0;
+}
+
+.main {
+    height: 50vh;
+    background-color: #E5E7EB;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 8rem;
+}
+
+.quote {
+    width: 55rem;
+}
+
+.quote .text {
+    height: fit-content;
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem;
+}
+
+.quote .author {
+    font-family: 'Times New Roman', Times, serif;
+    height: fit-content;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.action {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10rem;
+    background-color: green;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.action .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.3rem;
+}
+
+.action .text {
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.action button {
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: green;
+    color: white;
+    border: 3px solid white;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transition: all 500ms;
+    transition: all 500ms;
+}
+
+.action button:hover {
+    border: 3px solid aquamarine;
+    transform: scale(1.1);
+    filter: brightness(125%);
+}
+
+.footer {
+    height: 8vh;
+    background-color: #1F2937;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
 }
