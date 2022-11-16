@@ -90,13 +90,17 @@ body {
     flex: 0 1 0;
 }
 
+.hawaii {
+    display: flex;
+    justify-content: center;
+}
+
 .info {
+    width: 60rem;
     height: min-content;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 25rem;
-    padding-right: 25rem;
 }
 
 .info .title {
@@ -112,11 +116,12 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
     margin-bottom: 5rem;
 }
 
 .island {
+    width: 12rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
